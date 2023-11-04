@@ -16,6 +16,7 @@ Repositorio para Proyecto Final de Data Science en bootcamp Henry, se analizan l
   ![Scikitlearn](https://img.shields.io/badge/-Scikitlearn-333333?style=flat&logo=scikitlearn)
 - 🛢 &nbsp;
   ![BigQuery](https://img.shields.io/badge/-BigQuery-333333?style=flat&logo=bigquery)
+  [![Google Cloud Platform](https://img.shields.io/badge/GoogleCloudPlatform-Up-<COLOR>.svg)](https://shields.io/)
 - 📊 &nbsp;
   ![Power BI](https://img.shields.io/badge/-Power%20BI-333333?style=flat&logo=powerbi)
 - ⚙️ &nbsp;
@@ -24,8 +25,14 @@ Repositorio para Proyecto Final de Data Science en bootcamp Henry, se analizan l
   ![Jupyter](https://img.shields.io/badge/-Jupyter-333333?style=flat&logo=jupyter)
   ![colab](https://img.shields.io/badge/-colab-333333?style=flat&logo=colabbadge)
   ![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
+  [![Jira](https://badgen.net/badge/icon/jira?icon=jira&label)](https://https://jira.com/)
 
+## Enlaces
 
+[Jira](https://jimenafioni.atlassian.net/jira/software/projects/PF/boards/2) 
+[Notion](https://www.notion.so/Proyecto-Final-Henry-ee9df2791c4f4a508387789dc02b842e)
+[Drive](https://drive.google.com/drive/folders/1WnKWhaJwMHU0AG0Dm_H0j3qp9_FhGpYF)
+[GoogleCloudStorage](https://console.cloud.google.com/storage/browser?project=pf-data-science&prefix=&forceOnBucketsSortingFiltering=true)
 
 ## Objetivo y Alcance 📚
 
