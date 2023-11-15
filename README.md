@@ -145,6 +145,20 @@ Datos trimestrales de residencias otorgadas por Provincia de 2017 a 2022
 Nombre del archivo: *Cantidad_de_personas_extranjeras_identificadas_residiendo_en_Argentina_Enero_2023.csv*<br>
 Cantidad de personas extranjeras identificadas residiendo en Argentina a Enero 2023
 
+##	Relación entre migración e indicadores económicos sociales y ambientales. 
+
+
+<div align="center">
+  <img src='./assets/Indicadores_migracion.png'>
+  <br> 
+</div>
+
+##  Caracterización del proceso migratorio en Argentina
+* Principales países de origen y destino de migrantes en Argentina y su evolución en el tiempo. <br>
+* Estructura poblacional de inmigrantes en Argentina <br>
+* Radicación de inmigrantes dentro de Argentina.<br>
+
+
 
 
 
