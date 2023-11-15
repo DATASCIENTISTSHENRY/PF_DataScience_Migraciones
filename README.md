@@ -148,6 +148,48 @@ Cantidad de personas extranjeras identificadas residiendo en Argentina a Enero 2
 
 
 
+---
+## Kpi´s
+---
+1
+***
+**Objetivo**  
+Disminuir la proporción de inmigrantes que se radican en CIUDAD AUTÓNOMA DE BUENOS AIRES (CABA) y BUENOS AIRES, fomentando la redistribución de residencias hacia otras provincias argentinas.
+
+**Fórmula**
+KPI1=(Residencias CABA + BS AS / Residencias Totales) trimestre actual−(Residencias CABA + BS A /Residencias Totales) trimestre anterior
+
+**Justificación**
+Este indicador busca medir la variación trimestral en la proporción de residencias otorgadas en CIUDAD AUTÓNOMA DE BUENOS AIRES (CABA) y BUENOS AIRES en relación con el total de residencias otorgadas en el país. Una disminución en este valor indica una tendencia positiva hacia la redistribución de inmigrantes hacia otras provincias argentinas, promoviendo una distribución más equitativa y balanceada de la migración en el país.  
+
+---
+2
+***
+**Objetivo**  
+Aumentar la proporción de inmigrantes que se radican en las cinco provincias con más residencias después de BUENOS AIRES (Ciudad Autónoma de Buenos Aires y Buenos AIRES), incentivando la migración hacia estas regiones y diversificando la distribución de residencias.
+
+**Fórmula**
+KPI2=(Residencias 5 provincias luego de BS AS / Residencias Totales) trimestre actual− (Residencias 5 provincias luego de BS AS / Residencias Totales) trimestre anterior.
+
+**Justificación**
+Este indicador busca medir la variación trimestral en la proporción de residencias otorgadas en las cinco provincias con mayor cantidad de inmigrantes después de BUENOS AIRES, en relación con el total de residencias entregadas en el país. Un incremento en este valor refleja un aumento en la migración hacia estas provincias, lo cual implica una diversificación y desconcentración de la inmigración hacia regiones más allá de las principales urbes, promoviendo un desarrollo más equilibrado en el interior del país. 
+
+---
+3
+***
+**Objetivo**  
+Aumentar la proporción de inmigrantes que se radican en las cinco provincias con menos residencias otorgadas, fomentando la migración hacia estas regiones y contribuyendo a un mayor equilibrio en la distribución demográfica.
+
+**Fórmula**
+KPI3=(Residencias 5 provincias con menos radicaciones / Residencias Totales) trimestre actual − (Residencias 5 provincias con menos radicaciones / Residencias Totales) trimestre anterior.
+
+**Justificación**
+Este indicador mide la variación trimestral en la proporción de residencias otorgadas en las cinco provincias con menos radicaciones en relación con el total de residencias entregadas en el país. Un incremento en este valor refleja un aumento en la migración hacia estas provincias menos pobladas, lo que contribuye a descentralizar la concentración demográfica, estimular el desarrollo en áreas menos densamente pobladas y promover un equilibrio territorial más sostenible en Argentina.
+
+
+
+
+
 
 
 
