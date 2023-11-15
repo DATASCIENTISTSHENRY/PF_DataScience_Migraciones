@@ -36,11 +36,15 @@ Repositorio para Proyecto Final de Data Science en bootcamp Henry, se analizan l
   [![Jira](https://badgen.net/badge/icon/jira?icon=jira&label)](https://https://jira.com/)
 
 ## Enlaces
+<div align="center">
 
-[Jira](https://jimenafioni.atlassian.net/jira/software/projects/PF/boards/2) 
-[Notion](https://www.notion.so/Proyecto-Final-Henry-ee9df2791c4f4a508387789dc02b842e)
-[Drive](https://drive.google.com/drive/folders/1WnKWhaJwMHU0AG0Dm_H0j3qp9_FhGpYF)
-[GoogleCloudStorage](https://console.cloud.google.com/storage/browser?project=pf-data-science&prefix=&forceOnBucketsSortingFiltering=true)
+[Jira](https://jimenafioni.atlassian.net/jira/software/projects/PF/boards/2) <br>
+[Notion](https://www.notion.so/Proyecto-Final-Henry-ee9df2791c4f4a508387789dc02b842e)<br>
+[Drive](https://drive.google.com/drive/folders/1WnKWhaJwMHU0AG0Dm_H0j3qp9_FhGpYF)<br>
+[GoogleCloudStorage](https://console.cloud.google.com/storage/browser?project=pf-data-science&prefix=&forceOnBucketsSortingFiltering=true)<br>
+[Modelo_ML](https://github.com/DATASCIENTISTSHENRY/MODELO-ML)<br>
+[Diccionario_de_datos](./Diccionario%20de%20conceptos%20.xlsx)<br>
+</div>
 
 ## Objetivo y Alcance 📚
 
@@ -50,8 +54,9 @@ Se realizará una caracterización del proceso migratorio en Argentina, el mismo
 Se determinarán y calcularán indicadores calves de desempeño que tengan como propósito alcanzar una distribución homogénea de inmigrantes en el país. 
 El resultado de este análisis se presentará en un dashboard interactivo. También se presentará un modelo de aprendizaje automático que dará como resultado el porcentaje de variación de la cantidad de inmigrantes en Argentina al modificar los indicadores estudiados.
  
-## Fuentes de datos
-#### UNITED NATIONS https://www.un.org/development/desa/pd/content/international-migrant-stock 
+## Fuentes de datos 
+
+#### [UNITED NATIONS](https://www.un.org/development/desa/pd/content/international-migrant-stock )
 
 
 > **Inventario de Migrantes Internacionales**  
@@ -59,7 +64,7 @@ Nombre del archivo: *'Naciones_Unidas_undesa_pd_2020_ims_stock_by_sex_destinatio
 Las estimaciones del número (o "inventario") de migrantes internacionales desglosados por edad, sexo y país o área de origen se basan en estadísticas nacionales, en la mayoría de los casos obtenidas de censos de población. Además, los registros de población y encuestas representativas a nivel nacional proporcionaron información sobre el número y la composición de los migrantes internacionales.
 El conjunto de datos presenta estimaciones de migrantes internacionales por edad, sexo y origen. Las estimaciones se presentan para 1990, 1995, 2000, 2005, 2010, 2015 y 2020 y están disponibles para 232 países y áreas del mundo. Las estimaciones se basan en estadísticas oficiales sobre la población nacida en el extranjero o la población extranjera.
 
-#### BANCO MUNDIAL https://datos.bancomundial.org/indicador/SM.POP.NETM
+#### [BANCO MUNDIAL](https://datos.bancomundial.org/indicador/SM.POP.NETM)
 
 > **Migración neta**  
 Nombre del archivo: *Banco_Mundial_Migration_Rate_Argentina.xls*  
@@ -128,13 +133,13 @@ Nombre del archivo: *Banco_Mundial_Tasa_de_Mortalidad_en_un_año.xls*
 Tasa de mortalidad en un año (por cada 1.000 personas)  
 La tasa bruta de mortalidad es la cantidad de muertes en un año, por cada 1000 habitantes, estimada a mitad de año.
 
-#### DATOS DEL GOBIERNO ARGENTINO https://datos.gob.ar/dataset/interior-ingresos-egresos-personas-al-pais-residencias-otorgadas
+#### [DATOS DEL GOBIERNO ARGENTINO](https://datos.gob.ar/dataset/interior-ingresos-egresos-personas-al-pais-residencias-otorgadas)
 
 >**Residencias Otrogadas**<br>
 Nombre del archivo: *Residencias_otorgadas - trimestre -año .xls*<br>
 Datos trimestrales de residencias otorgadas por Provincia de 2017 a 2022 
 
-#### DATOS DEL GOBIERNO ARGENTINO https://www.argentina.gob.ar/interior/renaper/estadistica-de-poblacion/informes-provinciales
+#### [DATOS DEL GOBIERNO ARGENTINO](https://www.argentina.gob.ar/interior/renaper/estadistica-de-poblacion/informes-provinciales)
 
 >**Extranjeros en Argentina**<br>
 Nombre del archivo: *Cantidad_de_personas_extranjeras_identificadas_residiendo_en_Argentina_Enero_2023.csv*<br>
