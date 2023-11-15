@@ -97,8 +97,8 @@ Algunos de los beneficios de tener una distribución más homogénea son:
 Para establecer los KPI se definen las siguientes zonas:
 
 Zona de alta radicación de inmigrantes: Ciudad Autónoma de Bs As y Provincia de Buenos Aires
-Zona de radicación intermedia de inmigrantes: 
-Zona de baja radicación de inmigrantes:
+Zona de radicación intermedia de inmigrantes: Córdoba, Santa Fe, Mendoza y Neuquén
+Zona de baja radicación de inmigrantes: La Pampa, Santa Cruz, La Rioja, Tucumán y Formosa
 
 ---
 ### 🎯 KPI Reducción de residencias otorgadas en zona de alta radicación de inmigrantes. 
@@ -137,10 +137,13 @@ KPI3=(Residencias en zona de radicación baja / Residencias Totales) trimestre a
 
 **Justificación**
 Este indicador mide la variación trimestral en la proporción de residencias otorgadas en las cinco provincias con menos radicaciones en relación con el total de residencias entregadas en el país. Un incremento en este valor refleja un aumento en la migración hacia estas provincias menos pobladas, lo que contribuye a descentralizar la concentración demográfica, estimular el desarrollo en áreas menos densamente pobladas y promover un equilibrio territorial más sostenible en Argentina.
+
 ---
 ## Pipeline de la Automatización 
 [Enlace]()
 
+
+Video explicativo de la automatización [Enlace](https://drive.google.com/file/d/1onFW9OpixgNtR6YMkQR_vbnZ-SGkf2tD/view?usp=drive_link)
 ---
 ## Modelo de Machine Learning 
 [Enlace](https://github.com/DATASCIENTISTSHENRY/MODELO-ML)
