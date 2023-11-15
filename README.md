@@ -51,7 +51,7 @@ Repositorio para Proyecto Final de Data Science en bootcamp Henry, se analizan l
 El objetivo de este proyecto es obtener un entendimiento del proceso migratorio en Argentina.<br> 
 Se analizará la relación entre indicadores económicos, ambientales, sociales y la migración. Se buscará determinar de qué manera se ve afectada la cantidad de migrantes de argentina al modificarse dichos indicadores.
 Se realizará una caracterización del proceso migratorio en Argentina, el mismo incluirá el análisis de la cantidad, países de origen y destino de migrantes. Se investigará la distribución geográfica de la población inmigrante en Argentina, analizando las provincias en las cuales se  radican los inmigrantes.
-Se determinarán y calcularán indicadores calves de desempeño que tengan como propósito alcanzar una distribución homogénea de inmigrantes en el país. 
+Se determinarán y calcularán indicadores claves de desempeño que tengan como propósito alcanzar una distribución homogénea de inmigrantes en el país. 
 El resultado de este análisis se presentará en un dashboard interactivo. También se presentará un modelo de aprendizaje automático que dará como resultado el porcentaje de variación de la cantidad de inmigrantes en Argentina al modificar los indicadores estudiados.
  
 ## Fuentes de datos 
