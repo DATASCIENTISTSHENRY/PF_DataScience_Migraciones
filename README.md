@@ -43,7 +43,7 @@ Repositorio para Proyecto Final de Data Science en bootcamp Henry, se analizan l
 [Drive](https://drive.google.com/drive/folders/1WnKWhaJwMHU0AG0Dm_H0j3qp9_FhGpYF)<br>
 [GoogleCloudStorage](https://console.cloud.google.com/storage/browser?project=pf-data-science&prefix=&forceOnBucketsSortingFiltering=true)<br>
 [Modelo_ML](https://github.com/DATASCIENTISTSHENRY/MODELO-ML)<br>
-[Diccionario_de_datos](./Diccionario%20de%20conceptos%20.xlsx)<br>
+[Diccionario_de_datos](https://docs.google.com/spreadsheets/d/1ZPpcAVBxUZQtUsaX5dnRoTXet916yMVO/edit?usp=drive_link&ouid=108785850922164963725&rtpof=true&sd=true)<br>
 </div>
 
 ## Objetivo y Alcance 📚
@@ -54,96 +54,19 @@ Se realizará una caracterización del proceso migratorio en Argentina, el mismo
 Se determinarán y calcularán indicadores claves de desempeño que tengan como propósito alcanzar una distribución homogénea de inmigrantes en el país. 
 El resultado de este análisis se presentará en un dashboard interactivo. También se presentará un modelo de aprendizaje automático que dará como resultado el porcentaje de variación de la cantidad de inmigrantes en Argentina al modificar los indicadores estudiados.
  
-## Fuentes de datos 
+## [Fuentes de datos](./FUENTES_DATOS/FuentesdeDatos.md) -- Enlace a la descripción 📚
 
 #### [UNITED NATIONS](https://www.un.org/development/desa/pd/content/international-migrant-stock )
 
-
-> **Inventario de Migrantes Internacionales**  
-Nombre del archivo: *'Naciones_Unidas_undesa_pd_2020_ims_stock_by_sex_destination_and_origin.xlsx'*  
-Las estimaciones del número (o "inventario") de migrantes internacionales desglosados por edad, sexo y país o área de origen se basan en estadísticas nacionales, en la mayoría de los casos obtenidas de censos de población. Además, los registros de población y encuestas representativas a nivel nacional proporcionaron información sobre el número y la composición de los migrantes internacionales.
-El conjunto de datos presenta estimaciones de migrantes internacionales por edad, sexo y origen. Las estimaciones se presentan para 1990, 1995, 2000, 2005, 2010, 2015 y 2020 y están disponibles para 232 países y áreas del mundo. Las estimaciones se basan en estadísticas oficiales sobre la población nacida en el extranjero o la población extranjera.
-
 #### [BANCO MUNDIAL](https://datos.bancomundial.org/indicador/SM.POP.NETM)
-
-> **Migración neta**  
-Nombre del archivo: *Banco_Mundial_Migration_Rate_Argentina.xls*  
-La migración neta es el total neto de personas que migraron durante el período: la cantidad total de inmigrantes menos la cantidad anual de emigrantes, incluidos los ciudadanos y los no ciudadanos. Los datos son estimaciones de cinco años.
-
----
-Indicadores
-***
-> **Ingresos per cápita**  
-Nombre del archivo: *Banco_Mundial_Ingresos_Per_Capita_segun_encuestas.xls*  
-Consumo medio o ingreso per cápita (2011 PPP \$ por día) utilizado para calcular la tasa de crecimiento en el agregado del bienestar de la población total.
-
-> **Acceso a electricidad**  
-Nombre del archivo: *Banco_Mundial_Acceso_A_Electricidad.xls*  
-Acceso a la electricidad es el porcentaje de población con acceso a la electricidad. Los datos de electrificación se recopilan de la industria, las encuestas.
-
-> **Contaminación del aire**  
-Nombre del archivo: *Banco_Mundial_Contaminacion_Aire.xls*  
-Contaminación del aire por PM2,5, población expuesta a niveles que exceden el valor indicativo de la Organización Mundial de la Salud (OMS) (% del total).
-
-> **Crecimiento PBI**  
-Nombre del archivo: *Banco_Mundial_Crecimiento_del_PBI_%anual.xls*  
-Tasa de crecimiento anual porcentual del PIB a precios de mercado en moneda local, a precios constantes. Los agregados están expresados en dólares de los Estados Unidos a precios constantes del año 2010. El PIB es la suma del valor agregado bruto de todos los productores residentes en la economía más todo impuesto a los productos, menos todo subsidio no incluido en el valor de los productos. Se calcula sin hacer deducciones por depreciación de bienes manufacturados o por agotamiento y degradación de recursos naturales.
-
-> **Crecimiento PBI per cápita**  
-Nombre del archivo: *Banco_Mundial_Crecimiento_del_PBI_per_capita.xls*  
-Tasa de crecimiento porcentual anual del PIB per cápita en moneda local, a precios constantes. El PIB per cápita es el producto interno bruto dividido por la población a mitad de año. El PIB a precio de comprador es la suma del valor agregado bruto de todos los productores residentes en la economía más todo impuesto a los productos, menos todo subsidio no incluido en el valor de los productos. Se calcula sin hacer deducciones por depreciación de bienes manufacturados o por agotamiento y degradación de recursos naturales. Los datos se expresan en dólares de los Estados Unidos a precios constantes del año 2010.
-
-> **Desempleo Hombre**  
-Nombre del archivo: *Banco_Mundial_Desempleo_Hombres.xls*  
-Desempleo, varones (% de participación masculina en la fuerza laboral) (estimación nacional)  
-El desempleo se refiere a la proporción de la fuerza laboral que no tiene trabajo pero está disponible y busca empleo. Las definiciones de fuerza laboral y desempleo varían según el país.
-
-> **Desempleo mujeres**  
-Nombre del archivo: *Banco_Mundial_Desempleo_mujeres.xls*  
-Desempleo, mujeres (% de la población activa femenina) (estimación modelado OIT)  
-El desempleo es la proporción de la población activa que no tiene trabajo pero que busca trabajo y está disponible para realizarlo. Las definiciones de población activa y desempleo difieren según el país.
-
-> **Gasto PBI**  
-Nombre del archivo: *Banco_Mundial_Gasto_%_PBI.xls*  
-Gasto (% del PIB)  
-Los gastos son los pagos de dinero por actividades operativas del Gobierno para la provisión de bienes y servicios. Incluye remuneración de empleados (como sueldos y salarios), interés y subsidios, donaciones, beneficios sociales y otros gastos como renta y dividendos.
-
-> **Importaciones de Mercaderia**  
-Nombre del archivo: *Banco_Mundial_Importaciones_de_Mercaderia.xls*  
-Importaciones de mercaderías (US$ a precios actuales)  
-Las importaciones de mercaderías muestran el valor CIF de los bienes recibidos del resto del mundo que se valoran en dólares estadounidenses corrientes.
-
-> **Personas desempleadas de educación avanzada**  
-Nombre del archivo: *Banco_Mundial_Personas_Desempleadas_Con_Educacion_Avanzada.xls*  
-Personas desempleadas con educación avanzada (% del desempleo total)  
-El porcentaje de la fuerza laboral con un nivel avanzado de educación que se encuentra desempleada. La educación avanzada comprende educación terciaria de ciclo corto, una licenciatura o un nivel de educación equivalente, una maestría o un nivel de educación equivalente, o un doctorado o un nivel de educación equivalente según la Clasificación Internacional Normalizada de la Educación 2011 (CINE 2011).
-
-> **Tasa de cambio**  
-Nombre del archivo: *Banco_Mundial_Tasa_De_Cambio_Oficial.xls*  
-Tasa de cambio oficial (UMN por US$, promedio para un período)  
-El tipo de cambio oficial se refiere al tipo de cambio determinado por las autoridades nacionales o al tipo de cambio determinado en el mercado cambiario autorizado legalmente. Se calcula como un promedio anual basado en los promedios mensuales (unidades de moneda local en relación con el dólar de los Estados Unidos).
-
-> **Pobreza**  
-Nombre del archivo: *Banco_Mundial_Tasa_De_Incidencia_De_La_Pobreza.xls*  
-Tasa de incidencia de la pobreza, sobre la base de la línea de pobreza nacional (% de la población)  
-La tasa de pobreza nacional es el porcentaje de personas que vive debajo de la línea de pobreza nacional. Las estimaciones nacionales se basan en estimaciones de subgrupos ponderados según la población, obtenidas a partir de encuestas de los hogares.
-
-> **Mortalidad**  
-Nombre del archivo: *Banco_Mundial_Tasa_de_Mortalidad_en_un_año.xls*  
-Tasa de mortalidad en un año (por cada 1.000 personas)  
-La tasa bruta de mortalidad es la cantidad de muertes en un año, por cada 1000 habitantes, estimada a mitad de año.
 
 #### [DATOS DEL GOBIERNO ARGENTINO](https://datos.gob.ar/dataset/interior-ingresos-egresos-personas-al-pais-residencias-otorgadas)
 
->**Residencias Otrogadas**<br>
-Nombre del archivo: *Residencias_otorgadas - trimestre -año .xls*<br>
-Datos trimestrales de residencias otorgadas por Provincia de 2017 a 2022 
+
 
 #### [DATOS DEL GOBIERNO ARGENTINO](https://www.argentina.gob.ar/interior/renaper/estadistica-de-poblacion/informes-provinciales)
 
->**Extranjeros en Argentina**<br>
-Nombre del archivo: *Cantidad_de_personas_extranjeras_identificadas_residiendo_en_Argentina_Enero_2023.csv*<br>
-Cantidad de personas extranjeras identificadas residiendo en Argentina a Enero 2023
+
 
 ##	Relación entre migración e indicadores económicos sociales y ambientales. 
 
@@ -163,42 +86,71 @@ Cantidad de personas extranjeras identificadas residiendo en Argentina a Enero 2
 
 
 ---
-## Kpi´s
+## Indicadores de desempeño KPI- Distribución Homogénea en el país (Argentina)
+
+Existe en Argentina una concentración de población tanto nativa como inmigrante en la provincia de Buenos Aires y CABA. A través de los siguientes indicadores claves de desempeño se busca monitorear y definir objetivos para favorecer una mejor dispersión de inmigrantes dentro del territorio Argentino. 
+Algunos de los beneficios de tener una distribución más homogénea son: 
+•	Fomentar la diversidad cultural y social. Esto puede enriquecer la vida comunitaria y promover la tolerancia y la comprensión entre personas de diferentes orígenes culturales y étnicos.
+•	Estimular el crecimiento económico en áreas más pequeñas y menos desarrolladas.
+•	Contrarrestar la tendencia de despoblación en áreas rurales o menos desarrolladas
+
+Para establecer los KPI se definen las siguientes zonas:
+
+Zona de alta radicación de inmigrantes: Ciudad Autónoma de Bs As y Provincia de Buenos Aires
+Zona de radicación intermedia de inmigrantes: 
+Zona de baja radicación de inmigrantes:
+
 ---
-1
+### 🎯 KPI Reducción de residencias otorgadas en zona de alta radicación de inmigrantes. 
 ***
 **Objetivo**  
 Disminuir la proporción de inmigrantes que se radican en CIUDAD AUTÓNOMA DE BUENOS AIRES (CABA) y BUENOS AIRES, fomentando la redistribución de residencias hacia otras provincias argentinas.
 
-**Fórmula**
-KPI1=(Residencias CABA + BS AS / Residencias Totales) trimestre actual−(Residencias CABA + BS A /Residencias Totales) trimestre anterior
+**Fórmula**<br>
+ KPI1= (Residencias zona de alta radicación/Residencias Totales) trimestre actual − (Residencias zona de alta radicación /Residencias Totales) trimestre anterior
+
 
 **Justificación**
 Este indicador busca medir la variación trimestral en la proporción de residencias otorgadas en CIUDAD AUTÓNOMA DE BUENOS AIRES (CABA) y BUENOS AIRES en relación con el total de residencias otorgadas en el país. Una disminución en este valor indica una tendencia positiva hacia la redistribución de inmigrantes hacia otras provincias argentinas, promoviendo una distribución más equitativa y balanceada de la migración en el país.  
 
 ---
-2
+### 🎯 KPI Aumento de residencias otorgadas en zona de radicación intermedia de inmigrantes. 
 ***
 **Objetivo**  
-Aumentar la proporción de inmigrantes que se radican en las cinco provincias con más residencias después de BUENOS AIRES (Ciudad Autónoma de Buenos Aires y Buenos AIRES), incentivando la migración hacia estas regiones y diversificando la distribución de residencias.
+Aumentar la proporción de inmigrantes que se radican en la zona de radicación intermedia, incentivando la migración hacia estas regiones y diversificando la distribución de residencias.
 
-**Fórmula**
-KPI2=(Residencias 5 provincias luego de BS AS / Residencias Totales) trimestre actual− (Residencias 5 provincias luego de BS AS / Residencias Totales) trimestre anterior.
+**Fórmula**<br>
+KPI2=  (Residencias zona radicación intermedia / Residencias Totales) trimestre actual− (Residencias zona radicación intermedia / Residencias Totales) trimestre anterior.
+
 
 **Justificación**
 Este indicador busca medir la variación trimestral en la proporción de residencias otorgadas en las cinco provincias con mayor cantidad de inmigrantes después de BUENOS AIRES, en relación con el total de residencias entregadas en el país. Un incremento en este valor refleja un aumento en la migración hacia estas provincias, lo cual implica una diversificación y desconcentración de la inmigración hacia regiones más allá de las principales urbes, promoviendo un desarrollo más equilibrado en el interior del país. 
 
 ---
-3
+### 🎯 KPI Aumento de residencias otorgadas en zona de baja radicación de inmigrantes. 
 ***
 **Objetivo**  
-Aumentar la proporción de inmigrantes que se radican en las cinco provincias con menos residencias otorgadas, fomentando la migración hacia estas regiones y contribuyendo a un mayor equilibrio en la distribución demográfica.
+Aumentar la proporción de inmigrantes que se radican en las zonas de baja radicación, fomentando la migración hacia estas regiones y contribuyendo a un mayor equilibrio en la distribución demográfica.
 
-**Fórmula**
-KPI3=(Residencias 5 provincias con menos radicaciones / Residencias Totales) trimestre actual − (Residencias 5 provincias con menos radicaciones / Residencias Totales) trimestre anterior.
+**Fórmula**<br>
+KPI3=(Residencias en zona de radicación baja / Residencias Totales) trimestre actual − (Residencias en zona de radicación baja/ Residencias Totales) trimestre anterior.
 
 **Justificación**
 Este indicador mide la variación trimestral en la proporción de residencias otorgadas en las cinco provincias con menos radicaciones en relación con el total de residencias entregadas en el país. Un incremento en este valor refleja un aumento en la migración hacia estas provincias menos pobladas, lo que contribuye a descentralizar la concentración demográfica, estimular el desarrollo en áreas menos densamente pobladas y promover un equilibrio territorial más sostenible en Argentina.
+---
+## Pipeline de la Automatización 
+[Enlace]()
+
+---
+## Modelo de Machine Learning 
+[Enlace](https://github.com/DATASCIENTISTSHENRY/MODELO-ML)
+
+El propósito principal del modelo consiste en estimar el impacto de las variaciones en diversos indicadores, tales como Ingresos per cápita, Acceso a electricidad, Crecimiento PBI per cápita, Importaciones de Mercadería, Personas desempleadas de educación avanzada, Pobreza y Mortalidad, en la cantidad de inmigrantes que recibe argentina. Se puede ingresar a probar el modelo en el siguiente [link](https://migracion.streamlit.app/)
+<div align="center">
+
+![ModeloML](./assets/ModeloML.JPG)
+
+</div><br>
 
 
 
