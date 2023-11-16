@@ -140,14 +140,20 @@ Este indicador mide la variación trimestral en la proporción de residencias ot
 
 ---
 ## Pipeline de la Automatización -Arquitectura del Proceso de datos
-[Enlace]()
+![Enlace](./assets/Workflow.png)
 
 La elección de la arquitectura Big Data, está respaldada por la tecnología de GOOGLE CLOUD PLATFORM, junto con la organización de datos en CLOUD STORAGE, la automatización de tareas mediante CLOUD FUNCTIONS, y la explotación de datos a través de BIG QUERY, POWER BI y aplicaciones de MACHINE LEARNING, conforma una estrategia sólida y escalable para gestionar y
-analizar los extensos conjuntos de datos
+analizar los extensos conjuntos de datos.
+GCP nos ofrece una integración perfecta entre sus servicios, lo que permite un flujo de datos desde el almacenamiento hasta el análisis y la visualización. Esto es esencial para mantener la consistencia y precisión de los datos en todas las etapas del proyecto.
+La escalabilidad de los servicios de GCP asegura que el proyecto pueda manejar grandes volúmenes de datos a medida que crece sin perder rendimiento. Esto es un punto muy fuerte ya que es común que en los proyectos relacionados con los datos, este aspecto se pase por alto.
 
-Video explicativo de la automatización [Enlace](https://drive.google.com/file/d/1onFW9OpixgNtR6YMkQR_vbnZ-SGkf2tD/view?usp=drive_link)
+Video explicativo de la automatización [Enlace](https://drive.google.com/file/d/19sRh8OGCS8TRUH1Kb6oef4B0fGLy8gEs/view?usp=drive_link)
 
-En Cloud Storage se utilizan dos buckets distintos. Uno de ellos está destinado exclusivamente al resguardo de los conjuntos de datos en su estado original, sin procesar. El segundo bucket se emplea para albergar los datos una vez que han sido sometidos a procesos de limpieza y transformación.
+Para este proyecto vamos a utilizar 3 servicios de GCP.
+El primer servicio es Cloud Storage, que lo utilizaremos como Data Lake, el cual van a estar los datasets que obtengamos de las investigaciones. Cloud Storage permite almacenar grandes volúmenes de datos de manera segura y proporciona acceso rápido para análisis posteriores.
+El segundo servicio es Cloud Functions, que lo utilizaremos para los pipelines de automatización. Acá vamos a crear 2 Pipelines. Uno para la Limpieza de los datasets que ingresan al Cloud Storage, y el otro para la transformación de esos datos y poder insertarlos en nuestro Data Warehouse.
+Y el tercer servicio, utilizaremos BigQuery como Data Warehouse. En Bigquery podemos manejar un gran volumen de datos y poder realizar consultas de manera eficiente.
+
 La automatización de tareas se ha logrado mediante el uso de Cloud Functions. Se han desarrollado dos funciones programadas en Python:
 
 Function-: Esta función se encarga de ejecutar el proceso de Extracción,
