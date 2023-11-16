@@ -139,11 +139,30 @@ KPI3=(Residencias en zona de radicación baja / Residencias Totales) trimestre a
 Este indicador mide la variación trimestral en la proporción de residencias otorgadas en las cinco provincias con menos radicaciones en relación con el total de residencias entregadas en el país. Un incremento en este valor refleja un aumento en la migración hacia estas provincias menos pobladas, lo que contribuye a descentralizar la concentración demográfica, estimular el desarrollo en áreas menos densamente pobladas y promover un equilibrio territorial más sostenible en Argentina.
 
 ---
-## Pipeline de la Automatización 
+## Pipeline de la Automatización -Arquitectura del Proceso de datos
 [Enlace]()
 
+La elección de la arquitectura Big Data, está respaldada por la tecnología de GOOGLE CLOUD PLATFORM, junto con la organización de datos en CLOUD STORAGE, la automatización de tareas mediante CLOUD FUNCTIONS, y la explotación de datos a través de BIG QUERY, POWER BI y aplicaciones de MACHINE LEARNING, conforma una estrategia sólida y escalable para gestionar y
+analizar los extensos conjuntos de datos
 
 Video explicativo de la automatización [Enlace](https://drive.google.com/file/d/1onFW9OpixgNtR6YMkQR_vbnZ-SGkf2tD/view?usp=drive_link)
+
+En Cloud Storage se utilizan dos buckets distintos. Uno de ellos está destinado exclusivamente al resguardo de los conjuntos de datos en su estado original, sin procesar. El segundo bucket se emplea para albergar los datos una vez que han sido sometidos a procesos de limpieza y transformación.
+La automatización de tareas se ha logrado mediante el uso de Cloud Functions. Se han desarrollado dos funciones programadas en Python:
+
+Function-: Esta función se encarga de ejecutar el proceso de Extracción,
+Transformación y Carga (ETL) de los datos, asegurando su adecuada preparación
+para su posterior análisis.
+
+Function-: Esta función se ocupa de importar los datos procesados desde el bucket
+que alberga los datos procesados hacia su almacenamiento en el Datawarehouse,
+el cual se realiza con Big Query.
+
+Finalmente, se utiliza Power Bi para la creación y diseño de dashboards y paneles
+de control que permitirán una visualización efectiva de los datos. Además, se
+implementan procesos de Machine Learning para la creación de un sistema de
+recomendación basado en técnicas de aprendizaje automático
+
 ---
 ## Modelo de Machine Learning 
 [Enlace](https://github.com/DATASCIENTISTSHENRY/MODELO-ML)
