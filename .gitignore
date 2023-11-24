@@ -2,3 +2,4 @@ myenv/
 .work-folder-info
 ./work-folder-info
 work-folder-info
+__pycache__
