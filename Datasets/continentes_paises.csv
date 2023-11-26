@@ -1,0 +1,247 @@
+nombre, name, nom, iso2, iso3, phone_code,continente
+Afganistán,Afghanistan,Afghanistan,AF,AFG,93,Asia
+Albania,Albania,Albanie,AL,ALB,355,Europa
+Alemania,Germany,Allemagne,DE,DEU,49,Europa
+Algeria,Algeria,Algérie,DZ,DZA,213,África
+Andorra,Andorra,Andorra,AD,AND,376,Europa
+Angola,Angola,Angola,AO,AGO,244,África
+Anguila,Anguilla,Anguilla,AI,AIA,1 264,América
+Antártida,Antarctica,L'Antarctique,AQ,ATA,672,Antártida
+Antigua y Barbuda,Antigua and Barbuda,Antigua et Barbuda,AG,ATG,1 268,América
+Antillas Neerlandesas,Netherlands Antilles,Antilles Néerlandaises,AN,ANT,599,América
+Arabia Saudita,Saudi Arabia,Arabie Saoudite,SA,SAU,966,Asia
+Argentina,Argentina,Argentine,AR,ARG,54,América
+Armenia,Armenia,L'Arménie,AM,ARM,374,Asia
+Aruba,Aruba,Aruba,AW,ABW,297,América
+Australia,Australia,Australie,AU,AUS,61,Australia y Oceanía
+Austria,Austria,Autriche,AT,AUT,43,Europa
+Azerbayán,Azerbaijan,L'Azerbaïdjan,AZ,AZE,994,Asia
+Bélgica,Belgium,Belgique,BE,BEL,32,Europa
+Bahamas,Bahamas,Bahamas,BS,BHS,1 242,América
+Bahrein,Bahrain,Bahreïn,BH,BHR,973,Asia
+Bangladesh,Bangladesh,Bangladesh,BD,BGD,880,Asia
+Barbados,Barbados,Barbade,BB,BRB,1 246,América
+Belice,Belize,Belize,BZ,BLZ,501,América
+Benín,Benin,Bénin,BJ,BEN,229,África
+Bhután,Bhutan,Le Bhoutan,BT,BTN,975,Asia
+Bielorrusia,Belarus,Biélorussie,BY,BLR,375,Europa
+Birmania,Myanmar,Myanmar,MM,MMR,95,Asia
+Bolivia,Bolivia,Bolivie,BO,BOL,591,América
+Bosnia y Herzegovina,Bosnia and Herzegovina,Bosnie-Herzégovine,BA,BIH,387,Europa
+Botsuana,Botswana,Botswana,BW,BWA,267,África
+Brasil,Brazil,Brésil,BR,BRA,55,América
+Brunéi,Brunei,Brunei,BN,BRN,673,Asia
+Bulgaria,Bulgaria,Bulgarie,BG,BGR,359,Europa
+Burkina Faso,Burkina Faso,Burkina Faso,BF,BFA,226,África
+Burundi,Burundi,Burundi,BI,BDI,257,África
+Cabo Verde,Cape Verde,Cap-Vert,CV,CPV,238,África
+Camboya,Cambodia,Cambodge,KH,KHM,855,Asia
+Camerún,Cameroon,Cameroun,CM,CMR,237,África
+Canadá,Canada,Canada,CA,CAN,1,América
+Chad,Chad,Tchad,TD,TCD,235,África
+Chile,Chile,Chili,CL,CHL,56,América
+China,China,Chine,CN,CHN,86,Asia
+Chipre,Cyprus,Chypre,CY,CYP,357,Asia
+Ciudad del Vaticano,Vatican City State,Cité du Vatican,VA,VAT,39,Europa
+Colombia,Colombia,Colombie,CO,COL,57,América
+Comoras,Comoros,Comores,KM,COM,269,África
+Congo,Congo,Congo,CG,COG,242,África
+Congo,Congo,Congo,CD,COD,243,África
+Corea del Norte,North Korea,Corée du Nord,KP,PRK,850,Asia
+Corea del Sur,South Korea,Corée du Sud,KR,KOR,82,Asia
+Costa de Marfil,Ivory Coast,Côte-d'Ivoire,CI,CIV,225,África
+Costa Rica,Costa Rica,Costa Rica,CR,CRI,506,América
+Croacia,Croatia,Croatie,HR,HRV,385,Europa
+Cuba,Cuba,Cuba,CU,CUB,53,América
+Dinamarca,Denmark,Danemark,DK,DNK,45,Europa
+Dominica,Dominica,Dominique,DM,DMA,1 767,América
+Ecuador,Ecuador,Equateur,EC,ECU,593,América
+Egipto,Egypt,Egypte,EG,EGY,20,África
+El Salvador,El Salvador,El Salvador,SV,SLV,503,América
+Emiratos Árabes Unidos,United Arab Emirates,Emirats Arabes Unis,AE,ARE,971,Asia
+Eritrea,Eritrea,Erythrée,ER,ERI,291,África
+Eslovaquia,Slovakia,Slovaquie,SK,SVK,421,Europa
+Eslovenia,Slovenia,Slovénie,SI,SVN,386,Europa
+España,Spain,Espagne,ES,ESP,34,Europa
+Estados Unidos de América,United States of America,États-Unis d'Amérique,US,USA,1,América
+Estonia,Estonia,L'Estonie,EE,EST,372,Europa
+Etiopía,Ethiopia,Ethiopie,ET,ETH,251,África
+Filipinas,Philippines,Philippines,PH,PHL,63,Asia
+Finlandia,Finland,Finlande,FI,FIN,358,Europa
+Fiyi,Fiji,Fidji,FJ,FJI,679,Australia y Oceanía
+Francia,France,France,FR,FRA,33,Europa
+Gabón,Gabon,Gabon,GA,GAB,241,África
+Gambia,Gambia,Gambie,GM,GMB,220,África
+Georgia,Georgia,Géorgie,GE,GEO,995,Asia
+Ghana,Ghana,Ghana,GH,GHA,233,África
+Gibraltar,Gibraltar,Gibraltar,GI,GIB,350,Europa
+Granada,Grenada,Grenade,GD,GRD,1 473,América
+Grecia,Greece,Grèce,GR,GRC,30,Europa
+Groenlandia,Greenland,Groenland,GL,GRL,299,América
+Guadalupe,Guadeloupe,Guadeloupe,GP,GLP,,América
+Guam,Guam,Guam,GU,GUM,1 671,Australia y Oceanía
+Guatemala,Guatemala,Guatemala,GT,GTM,502,América
+Guayana Francesa,French Guiana,Guyane française,GF,GUF,,América
+Guernsey,Guernsey,Guernesey,GG,GGY,,Europa
+Guinea,Guinea,Guinée,GN,GIN,224,África
+Guinea Ecuatorial,Equatorial Guinea,Guinée Equatoriale,GQ,GNQ,240,África
+Guinea-Bissau,Guinea-Bissau,Guinée-Bissau,GW,GNB,245,África
+Guyana,Guyana,Guyane,GY,GUY,592,América
+Haití,Haiti,Haïti,HT,HTI,509,América
+Honduras,Honduras,Honduras,HN,HND,504,América
+Hong kong,Hong Kong,Hong Kong,HK,HKG,852,Asia
+Hungría,Hungary,Hongrie,HU,HUN,36,Europa
+India,India,Inde,IN,IND,91,Asia
+Indonesia,Indonesia,Indonésie,ID,IDN,62,Asia
+Irán,Iran,Iran,IR,IRN,98,Asia
+Irak,Iraq,Irak,IQ,IRQ,964,Asia
+Irlanda,Ireland,Irlande,IE,IRL,353,Europa
+Isla Bouvet,Bouvet Island,Bouvet Island,BV,BVT,,Antártida
+Isla de Man,Isle of Man,Ile de Man,IM,IMN,44,Europa
+Isla de Navidad,Christmas Island,Christmas Island,CX,CXR,61,Asia
+Isla Norfolk,Norfolk Island,Île de Norfolk,NF,NFK,,Australia y Oceanía
+Islandia,Iceland,Islande,IS,ISL,354,Europa
+Islas Bermudas,Bermuda Islands,Bermudes,BM,BMU,1 441,América
+Islas Caimán,Cayman Islands,Iles Caïmans,KY,CYM,1 345,América
+Islas Cocos (Keeling),Cocos (Keeling) Islands,Cocos (Keeling,CC,CCK,61,Asia
+Islas Cook,Cook Islands,Iles Cook,CK,COK,682,Australia y Oceanía
+Islas de Åland,Åland Islands,Îles Åland,AX,ALA,,Europa
+Islas Feroe,Faroe Islands,Iles Féro,FO,FRO,298,Europa
+Islas Georgias del Sur y Sandwich del Sur,South Georgia and the South Sandwich Islands,Géorgie du Sud et les Îles Sandwich du Sud,GS,SGS,,América
+Islas Heard y McDonald,Heard Island and McDonald Islands,Les îles Heard et McDonald,HM,HMD,,Antártida
+Islas Maldivas,Maldives,Maldives,MV,MDV,960,Asia
+Islas Malvinas,Falkland Islands (Malvinas),Iles Falkland (Malvinas,FK,FLK,500,América
+Islas Marianas del Norte,Northern Mariana Islands,Iles Mariannes du Nord,MP,MNP,1 670,Australia y Oceanía
+Islas Marshall,Marshall Islands,Iles Marshall,MH,MHL,692,Australia y Oceanía
+Islas Pitcairn,Pitcairn Islands,Iles Pitcairn,PN,PCN,870,Australia y Oceanía
+Islas Salomón,Solomon Islands,Iles Salomon,SB,SLB,677,Australia y Oceanía
+Islas Turcas y Caicos,Turks and Caicos Islands,Iles Turques et Caïques,TC,TCA,1 649,América
+Islas Ultramarinas Menores de Estados Unidos,United States Minor Outlying Islands,États-Unis Îles mineures éloignées,UM,UMI,,
+Islas Vírgenes Británicas,Virgin Islands,Iles Vierges,VG,VG,1 284,América
+Islas Vírgenes de los Estados Unidos,United States Virgin Islands,Îles Vierges américaines,VI,VIR,1 340,América
+Israel,Israel,Israël,IL,ISR,972,Asia
+Italia,Italy,Italie,IT,ITA,39,Europa
+Jamaica,Jamaica,Jamaïque,JM,JAM,1 876,América
+Japón,Japan,Japon,JP,JPN,81,Asia
+Jersey,Jersey,Maillot,JE,JEY,,Europa
+Jordania,Jordan,Jordan,JO,JOR,962,Asia
+Kazajistán,Kazakhstan,Le Kazakhstan,KZ,KAZ,7,Asia
+Kenia,Kenya,Kenya,KE,KEN,254,África
+Kirgizstán,Kyrgyzstan,Kirghizstan,KG,KGZ,996,Asia
+Kiribati,Kiribati,Kiribati,KI,KIR,686,Australia y Oceanía
+Kuwait,Kuwait,Koweït,KW,KWT,965,Asia
+Líbano,Lebanon,Liban,LB,LBN,961,Asia
+Laos,Laos,Laos,LA,LAO,856,Asia
+Lesoto,Lesotho,Lesotho,LS,LSO,266,África
+Letonia,Latvia,La Lettonie,LV,LVA,371,Europa
+Liberia,Liberia,Liberia,LR,LBR,231,África
+Libia,Libya,Libye,LY,LBY,218,África
+Liechtenstein,Liechtenstein,Liechtenstein,LI,LIE,423,Europa
+Lituania,Lithuania,La Lituanie,LT,LTU,370,Europa
+Luxemburgo,Luxembourg,Luxembourg,LU,LUX,352,Europa
+México,Mexico,Mexique,MX,MEX,52,América
+Mónaco,Monaco,Monaco,MC,MCO,377,Europa
+Macao,Macao,Macao,MO,MAC,853,Asia
+Macedônia,Macedonia,Macédoine,MK,MKD,389,Europa
+Madagascar,Madagascar,Madagascar,MG,MDG,261,África
+Malasia,Malaysia,Malaisie,MY,MYS,60,Asia
+Malawi,Malawi,Malawi,MW,MWI,265,África
+Mali,Mali,Mali,ML,MLI,223,África
+Malta,Malta,Malte,MT,MLT,356,Europa
+Marruecos,Morocco,Maroc,MA,MAR,212,África
+Martinica,Martinique,Martinique,MQ,MTQ,,América
+Mauricio,Mauritius,Iles Maurice,MU,MUS,230,África
+Mauritania,Mauritania,Mauritanie,MR,MRT,222,África
+Mayotte,Mayotte,Mayotte,YT,MYT,262,África
+Micronesia,Estados Federados de,Federados Estados de,FM,FSM,691,Australia y Oceanía
+Moldavia,Moldova,Moldavie,MD,MDA,373,Europa
+Mongolia,Mongolia,Mongolie,MN,MNG,976,Asia
+Montenegro,Montenegro,Monténégro,ME,MNE,382,Europa
+Montserrat,Montserrat,Montserrat,MS,MSR,1 664,América
+Mozambique,Mozambique,Mozambique,MZ,MOZ,258,África
+Namibia,Namibia,Namibie,NA,NAM,264,África
+Nauru,Nauru,Nauru,NR,NRU,674,Australia y Oceanía
+Nepal,Nepal,Népal,NP,NPL,977,Asia
+Nicaragua,Nicaragua,Nicaragua,NI,NIC,505,América
+Niger,Niger,Niger,NE,NER,227,África
+Nigeria,Nigeria,Nigeria,NG,NGA,234,África
+Niue,Niue,Niou,NU,NIU,683,Australia y Oceanía
+Noruega,Norway,Norvège,NO,NOR,47,Europa
+Nueva Caledonia,New Caledonia,Nouvelle-Calédonie,NC,NCL,687,Australia y Oceanía
+Nueva Zelanda,New Zealand,Nouvelle-Zélande,NZ,NZL,64,Australia y Oceanía
+Omán,Oman,Oman,OM,OMN,968,Asia
+Países Bajos,Netherlands,Pays-Bas,NL,NLD,31,Europa
+Pakistán,Pakistan,Pakistan,PK,PAK,92,Asia
+Palau,Palau,Palau,PW,PLW,680,Australia y Oceanía
+Palestina,Palestine,La Palestine,PS,PSE,,Asia
+Panamá,Panama,Panama,PA,PAN,507,América
+Papúa Nueva Guinea,Papua New Guinea,Papouasie-Nouvelle-Guinée,PG,PNG,675,Australia y Oceanía
+Paraguay,Paraguay,Paraguay,PY,PRY,595,América
+Perú,Peru,Pérou,PE,PER,51,América
+Polinesia Francesa,French Polynesia,Polynésie française,PF,PYF,689,Australia y Oceanía
+Polonia,Poland,Pologne,PL,POL,48,Europa
+Portugal,Portugal,Portugal,PT,PRT,351,Europa
+Puerto Rico,Puerto Rico,Porto Rico,PR,PRI,1,América
+Qatar,Qatar,Qatar,QA,QAT,974,Asia
+Reino Unido,United Kingdom,Royaume-Uni,GB,GBR,44,Europa
+República Centroafricana,Central African Republic,République Centrafricaine,CF,CAF,236,África
+República Checa,Czech Republic,République Tchèque,CZ,CZE,420,Europa
+República Dominicana,Dominican Republic,République Dominicaine,DO,DOM,1 809,América
+Reunión,Réunion,Réunion,RE,REU,,África
+Ruanda,Rwanda,Rwanda,RW,RWA,250,África
+Rumanía,Romania,Roumanie,RO,ROU,40,Europa
+Rusia,Russia,La Russie,RU,RUS,7,Europa
+Sahara Occidental,Western Sahara,Sahara Occidental,EH,ESH,,África
+Samoa,Samoa,Samoa,WS,WSM,685,Australia y Oceanía
+Samoa Americana,American Samoa,Les Samoa américaines,AS,ASM,1 684,Australia y Oceanía
+San Bartolomé,Saint Barthélemy,Saint-Barthélemy,BL,BLM,590,América
+San Cristóbal y Nieves,Saint Kitts and Nevis,Saint Kitts et Nevis,KN,KNA,1 869,América
+San Marino,San Marino,San Marino,SM,SMR,378,Europa
+San Martín (Francia),Saint Martin (French part),Saint-Martin (partie française),MF,MAF,1 599,América
+San Pedro y Miquelón,Saint Pierre and Miquelon,Saint-Pierre-et-Miquelon,PM,SPM,508,América
+San Vicente y las Granadinas,Saint Vincent and the Grenadines,Saint-Vincent et Grenadines,VC,VCT,1 784,América
+Santa Elena,Ascensión y Tristán de Acuña,Ascensión y Tristan de Acuña,SH,SHN,290,África
+Santa Lucía,Saint Lucia,Sainte-Lucie,LC,LCA,1 758,América
+Santo Tomé y Príncipe,Sao Tome and Principe,Sao Tomé et Principe,ST,STP,239,África
+Senegal,Senegal,Sénégal,SN,SEN,221,África
+Serbia,Serbia,Serbie,RS,SRB,381,Europa
+Seychelles,Seychelles,Les Seychelles,SC,SYC,248,África
+Sierra Leona,Sierra Leone,Sierra Leone,SL,SLE,232,África
+Singapur,Singapore,Singapour,SG,SGP,65,Asia
+Siria,Syria,Syrie,SY,SYR,963,Asia
+Somalia,Somalia,Somalie,SO,SOM,252,África
+Sri lanka,Sri Lanka,Sri Lanka,LK,LKA,94,Asia
+Sudáfrica,South Africa,Afrique du Sud,ZA,ZAF,27,África
+Sudán,Sudan,Soudan,SD,SDN,249,África
+Suecia,Sweden,Suède,SE,SWE,46,Europa
+Suiza,Switzerland,Suisse,CH,CHE,41,Europa
+Surinám,Suriname,Surinam,SR,SUR,597,América
+Svalbard y Jan Mayen,Svalbard and Jan Mayen,Svalbard et Jan Mayen,SJ,SJM,,Europa
+Swazilandia,Swaziland,Swaziland,SZ,SWZ,268,África
+Tadjikistán,Tajikistan,Le Tadjikistan,TJ,TJK,992,Asia
+Tailandia,Thailand,Thaïlande,TH,THA,66,Asia
+Taiwán,Taiwan,Taiwan,TW,TWN,886,Asia
+Tanzania,Tanzania,Tanzanie,TZ,TZA,255,África
+Territorio Británico del Océano Índico,British Indian Ocean Territory,Territoire britannique de l'océan Indien,IO,IOT,,
+Territorios Australes y Antárticas Franceses,French Southern Territories,Terres australes françaises,TF,ATF,,
+Timor Oriental,East Timor,Timor-Oriental,TL,TLS,670,Asia
+Togo,Togo,Togo,TG,TGO,228,África
+Tokelau,Tokelau,Tokélaou,TK,TKL,690,Australia y Oceanía
+Tonga,Tonga,Tonga,TO,TON,676,Australia y Oceanía
+Trinidad y Tobago,Trinidad and Tobago,Trinidad et Tobago,TT,TTO,1 868,América
+Tunez,Tunisia,Tunisie,TN,TUN,216,África
+Turkmenistán,Turkmenistan,Le Turkménistan,TM,TKM,993,Asia
+Turquía,Turkey,Turquie,TR,TUR,90,Asia
+Tuvalu,Tuvalu,Tuvalu,TV,TUV,688,Australia y Oceanía
+Ucrania,Ukraine,L'Ukraine,UA,UKR,380,Europa
+Uganda,Uganda,Ouganda,UG,UGA,256,África
+Uruguay,Uruguay,Uruguay,UY,URY,598,América
+Uzbekistán,Uzbekistan,L'Ouzbékistan,UZ,UZB,998,Asia
+Vanuatu,Vanuatu,Vanuatu,VU,VUT,678,Australia y Oceanía
+Venezuela,Venezuela,Venezuela,VE,VEN,58,América
+Vietnam,Vietnam,Vietnam,VN,VNM,84,Asia
+Wallis y Futuna,Wallis and Futuna,Wallis et Futuna,WF,WLF,681,Australia y Oceanía
+Yemen,Yemen,Yémen,YE,YEM,967,Asia
+Yibuti,Djibouti,Djibouti,DJ,DJI,253,África
+Zambia,Zambia,Zambie,ZM,ZMB,260,África
+Zimbabue,Zimbabwe,Zimbabwe,ZW,ZWE,263,África
