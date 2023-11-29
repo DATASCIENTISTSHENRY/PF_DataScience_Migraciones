@@ -212,16 +212,24 @@ recomendación basado en técnicas de aprendizaje automático
 
 ---
 ## Modelo de Machine Learning 
-[Enlace](https://github.com/DATASCIENTISTSHENRY/MODELO-ML)
-
-El propósito principal del modelo consiste en estimar el impacto de las variaciones en diversos indicadores, tales como Ingresos per cápita, Acceso a electricidad, Crecimiento PBI per cápita, Importaciones de Mercadería, Personas desempleadas de educación avanzada, Pobreza y Mortalidad, en la cantidad de inmigrantes que recibe argentina. Se puede ingresar a probar el modelo en el siguiente [link](https://migracion.streamlit.app/)
+El modelo desarrollado permite estimar la variacion en el stock de inmigartes de Argentina ante variaciones en los siguientes indicadores:
+* Ingresos per cápita
+* Acceso a electricidad
+* Crecimiento PBI per cápita
+* Importaciones de Mercadería
+* Personas desempleadas de educación avanzada
+* Pobreza
+* Mortalidad
+  
+Se puede ingresar a probar el modelo en el siguiente [link](https://migracion.streamlit.app/)
 <div align="center">
 
 ![ModeloML](./assets/ModeloML.JPG)
 
 </div><br>
 
-
+La informacion de descripcion y desarrollo del modelo puede encontrase en el siguiente link:
+[Enlace](https://github.com/DATASCIENTISTSHENRY/MODELO-ML)
 
 
 
