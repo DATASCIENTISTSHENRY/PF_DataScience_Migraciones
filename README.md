@@ -158,10 +158,10 @@ Y el tercer servicio, utilizaremos `BigQuery` como Data Warehouse. En Bigquery p
 
 La automatización de tareas se ha logrado mediante el uso de Cloud Functions. Se han desarrollado dos funciones programadas en Python:
 
-***Function 01 - ETL***: Esta función se encarga de ejecutar el proceso de Extracción,
+- ***Function 01 - ETL***: Esta función se encarga de ejecutar el proceso de Extracción,
 Transformación y Carga (ETL) de los dataset que se guarden o actualicen en el primer bucket del `Cloud Storage`. Además, valida la estructura de los datos para que no haya errores al cargar los datasets equivocados, asegurando su adecuada preparación para su posterior análisis.
 
-***Function 02 - Upload to BigQuery***: Esta función se ocupa de importar los datos procesados desde el bucket
+- ***Function 02 - Upload to BigQuery***: Esta función se ocupa de importar los datos procesados desde el bucket
 que alberga los datasets limpios hacia el Datawarehouse. Pero antes realiza la validacion de los registros de la tabla en la cual se cargan los datasets, para que no hayan filas duplicadas, una vez validados, carga solo los nuevos registros de manera correta.
 
 Es importante destacar que estas funciones realizan todo el trabajo de manera automatizada, dando eficiencia a la carga incremental en el DataWarehouse. Una vez realizado esto, se podra realizar querys en SQL para poder realizar analisis de los datos y poder visualizarlos posteriormente.
