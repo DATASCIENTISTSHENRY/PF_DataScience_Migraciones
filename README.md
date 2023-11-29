@@ -139,32 +139,34 @@ KPI3=(Residencias en zona de radicación baja / Residencias Totales) trimestre a
 Este indicador mide la variación trimestral en la proporción de residencias otorgadas en las cinco provincias con menos radicaciones en relación con el total de residencias entregadas en el país. Un incremento en este valor refleja un aumento en la migración hacia estas provincias menos pobladas, lo que contribuye a descentralizar la concentración demográfica, estimular el desarrollo en áreas menos densamente pobladas y promover un equilibrio territorial más sostenible en Argentina.
 
 ---
-## Pipeline de la Automatización -Arquitectura del Proceso de datos
-![Enlace](./assets/Workflow.png)
+## Stack Tecnológico
+![Enlace](./assets/Workflow_Google_Cloud.png)
 
-La elección de la arquitectura Big Data, está respaldada por la tecnología de GOOGLE CLOUD PLATFORM, junto con la organización de datos en CLOUD STORAGE, la automatización de tareas mediante CLOUD FUNCTIONS, y la explotación de datos a través de BIG QUERY, POWER BI y aplicaciones de MACHINE LEARNING, conforma una estrategia sólida y escalable para gestionar y
-analizar los extensos conjuntos de datos.
+Para este proyecto es importante contar con una infraestructura sólida, escalable y segura. Es por eso que hemos elegido como stack tecnológico `Google Cloud Platform (GCP)`.
+
 GCP nos ofrece una integración perfecta entre sus servicios, lo que permite un flujo de datos desde el almacenamiento hasta el análisis y la visualización. Esto es esencial para mantener la consistencia y precisión de los datos en todas las etapas del proyecto.
 La escalabilidad de los servicios de GCP asegura que el proyecto pueda manejar grandes volúmenes de datos a medida que crece sin perder rendimiento. Esto es un punto muy fuerte ya que es común que en los proyectos relacionados con los datos, este aspecto se pase por alto.
+También, ofrece una estructura de precios flexible que se adapta a las necesidades del proyecto. Esto significa que, al utilizar servicios específicos, se puede optimizar el costo, asegurando que el proyecto sea rentable sin sacrificar la calidad del análisis, ya que solo se paga por los recursos que se consumen y utilizan.
+
 
 Video explicativo de la automatización [Enlace](https://drive.google.com/file/d/19sRh8OGCS8TRUH1Kb6oef4B0fGLy8gEs/view?usp=drive_link)
 
-Para este proyecto vamos a utilizar 3 servicios de GCP.
-El primer servicio es Cloud Storage, que lo utilizaremos como Data Lake, el cual van a estar los datasets que obtengamos de las investigaciones. Cloud Storage permite almacenar grandes volúmenes de datos de manera segura y proporciona acceso rápido para análisis posteriores.
-El segundo servicio es Cloud Functions, que lo utilizaremos para los pipelines de automatización. Acá vamos a crear 2 Pipelines. Uno para la Limpieza de los datasets que ingresan al Cloud Storage, y el otro para la transformación de esos datos y poder insertarlos en nuestro Data Warehouse.
-Y el tercer servicio, utilizaremos BigQuery como Data Warehouse. En Bigquery podemos manejar un gran volumen de datos y poder realizar consultas de manera eficiente.
+Para este proyecto vamos a utilizar 3 servicios de GCP.<br>
+El primer servicio es `Cloud Storage`, que lo utilizaremos como Data Lake, el cual van a estar los datasets que obtengamos de las investigaciones. Cloud Storage permite almacenar grandes volúmenes de datos de manera segura y proporciona acceso rápido para análisis posteriores.
+El segundo servicio es `Cloud Functions`, que lo utilizaremos para los pipelines de automatización. Acá vamos a crear 2 Pipelines. Uno para la Limpieza de los datasets que ingresan al Cloud Storage, y el otro para la transformación de esos datos y poder insertarlos en nuestro Data Warehouse.
+Y el tercer servicio, utilizaremos `BigQuery` como Data Warehouse. En Bigquery podemos manejar un gran volumen de datos y poder realizar consultas de manera eficiente.
 
 La automatización de tareas se ha logrado mediante el uso de Cloud Functions. Se han desarrollado dos funciones programadas en Python:
 
-Function-: Esta función se encarga de ejecutar el proceso de Extracción,
-Transformación y Carga (ETL) de los datos, asegurando su adecuada preparación
-para su posterior análisis.
+>***Function 01 - ETL***: Esta función se encarga de ejecutar el proceso de Extracción,
+Transformación y Carga (ETL) de los dataset que se guarden o actualicen en el primer bucket del `Cloud Storage`. Además, valida la estructura de los datos para que no haya errores al cargar los datasets equivocados, asegurando su adecuada preparación para su posterior análisis.
 
-Function-: Esta función se ocupa de importar los datos procesados desde el bucket
-que alberga los datos procesados hacia su almacenamiento en el Datawarehouse,
-el cual se realiza con Big Query.
+>***Function 02 - Upload to BigQuery***: Esta función se ocupa de importar los datos procesados desde el bucket
+que alberga los datasets limpios hacia el Datawarehouse. Pero antes realiza la validacion de los registros de la tabla en la cual se cargan los datasets, para que no hayan filas duplicadas, una vez validados, carga solo los nuevos registros de manera correta.
 
-Finalmente, se utiliza Power Bi para la creación y diseño de dashboards y paneles
+Es importante destacar que estas funciones realizan todo el trabajo de manera automatizada, dando eficiencia a la carga incremental en el DataWarehouse. Una vez realizado esto, se podra realizar querys en SQL para poder realizar analisis de los datos y poder visualizarlos posteriormente.
+
+Finalmente, se utiliza `Power Bi` para la creación y diseño del dashboard y paneles
 de control que permitirán una visualización efectiva de los datos. Además, se
 implementan procesos de Machine Learning para la creación de un sistema de
 recomendación basado en técnicas de aprendizaje automático
