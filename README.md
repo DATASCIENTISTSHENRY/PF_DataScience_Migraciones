@@ -224,7 +224,7 @@ El modelo desarrollado permite estimar la variacion en el stock de inmigartes de
 Se puede ingresar a probar el modelo en el siguiente [link](https://migracion.streamlit.app/)
 <div align="center">
 
-[ModeloML](./assets/ModeloML.JPG)
+![ModeloML](./assets/ModeloML_1.JPG)
 
 </div><br>
 
