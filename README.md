@@ -70,14 +70,36 @@ El resultado de este análisis se presentará en un dashboard interactivo. Tambi
 
 ##	Relación entre migración e indicadores económicos sociales y ambientales. 
 
+En esta sección se busca estudiar la relacion entre a migración y los indicadores que se muestran en el gráfico a continuación. 
+
 
 <div align="center">
   <img src='./assets/Indicadores_migracion.png'>
   <br> 
 </div>
 
+
+El dashboard diseñado en este trabajo cuenta con dos páginas donde puede evaluarse interactivamente la relación entre indicadores y migración.
+
+Para abordar el estudio de la relación entre indicadores y la migración neta se trabajó con dos enfoques. Se estudió la relación entre indicadores y migración neta teniendo en cuenta datos de todos los países en el periodo de tiempo estudiado. Se calcularon los coeficientes de regresión lineal entre migración y cada uno de los indicadores. <br>
+Luego, teniendo en cuenta que para cada país la variación de un determinado indicador puede afectar de manera diferente, debido a características únicas de cada país, se realizó el mismo análisis pero sólo considerando los datos de **Argentina**, que es nuestro pais de interés. Para ello se determinó la correlación entre migración neta y los indicadores con su variación en el tiempo. Los valores de coeficientes de regresión para el análisis con datos del mundo fueron más bajos que los valores encontrados para Argentina. Sin embargo, ambos análisis arrojaron que los indicadores más correlacionados con la migración neta son:
+
+- Nivel de Ingresos: A mayor nivel de ingresos, mayor migración neta.
+- Tasa de Pobreza: A mayor tasa de pobreza, menor migración neta.
+- Cantidad de Importaciones: A mayor cantidad de importación, mayor migración neta.
+
+La correlación positiva entre importaciones y migración neta es un hallazgo interesante, que se dio con bastante intensidad para los dos enfoques. Podría estudiarse el tema en profundidad para comprender el sentido de dicha correlación. Estudiar qué representa para el país un aumento en las importaciones y por qué afecta a la migración neta del país.
+
+
 ##  Caracterización del proceso migratorio en Argentina
-* Principales países de origen y destino de migrantes en Argentina y su evolución en el tiempo. <br>
+### Principales países de origen y destino de migrantes en Argentina y su evolución en el tiempo. <br>
+El dashboard también contiene una sección con información de los principales países de origen de los inmigrantes de Argentina y los países de destino que elijen quienes emigran de Argentina. Esta información analizada en el periodo de tiempo desde 1990 a 2020. Puede observarse que en 1990 el origen principal de los inmigrantes era Italia, luego a partir de 1995 pasó a ser Paraguay. Los países destino que tienen mayor cantidad de inmigrantes Argentinos son España y Estados Unidos. Son los principales destinos de los argentinos en el periodo estudiado.
+
+Analizando los indicadores de los países de origen y destino, se puede ver que los países de destino tales como España, Estados Unidos Israel tienen valores de importaciones más altas que los países de origen. Este análisis es concordante con la correlación encontrada entre los indicadores y la migración neta. Sin embargo con respecto a la pobreza, Argentina es la que tiene el indicador más alto y sin embargo recibe inmigrantes de países en mejor situación. Esto puede deberse a que son otros factores no analizados los que están impulsando la migración hacia Argentina. Con respecto al índice de mortalidad, los países de origen de inmigrantes en general tienen valores más altos. A nivel global no se observó correlación entre migración neta y la tasa de mortalidad, pero para los países involucrados en el proceso migratorio de Argentina parecería tener injerencia. Con respecto al desempleo, Argentina tiene un valor de indicador más elevado que el de los países de origen de sus inmigrantes.
+
+
+
+
 * Estructura poblacional de inmigrantes en Argentina <br>
 * Radicación de inmigrantes dentro de Argentina.<br>
 
@@ -96,9 +118,9 @@ Algunos de los beneficios de tener una distribución más homogénea son:
 
 Para establecer los KPI se definen las siguientes zonas:
 
-Zona de alta radicación de inmigrantes: Ciudad Autónoma de Bs As y Provincia de Buenos Aires
-Zona de radicación intermedia de inmigrantes: Córdoba, Santa Fe, Mendoza y Neuquén
-Zona de baja radicación de inmigrantes: La Pampa, Santa Cruz, La Rioja, Tucumán y Formosa
+Zona de alta radicación de inmigrantes: Ciudad Autónoma de Bs As y Provincia de Buenos Aires<br>
+Zona de radicación intermedia de inmigrantes: Córdoba, Santa Fe, Mendoza y Neuquén<br>
+Zona de baja radicación de inmigrantes: La Pampa, Santa Cruz, La Rioja, Tucumán y Formosa<br>
 
 ---
 ### 🎯 KPI Reducción de residencias otorgadas en zona de alta radicación de inmigrantes. 
@@ -107,8 +129,7 @@ Zona de baja radicación de inmigrantes: La Pampa, Santa Cruz, La Rioja, Tucumá
 Disminuir la proporción de inmigrantes que se radican en CIUDAD AUTÓNOMA DE BUENOS AIRES (CABA) y BUENOS AIRES, fomentando la redistribución de residencias hacia otras provincias argentinas.
 
 **Fórmula**<br>
- KPI1= (Residencias zona de alta radicación/Residencias Totales) trimestre actual − (Residencias zona de alta radicación /Residencias Totales) trimestre anterior
-
+ KPI1= [(Residencias zona de alta radicación/Residencias Totales) trimestre anterior − (Residencias zona de alta radicación /Residencias Totales) trimestre actual]*100/Residencias zona de alta radicación/Residencias Totales) trimestre anterior 
 
 **Justificación**
 Este indicador busca medir la variación trimestral en la proporción de residencias otorgadas en CIUDAD AUTÓNOMA DE BUENOS AIRES (CABA) y BUENOS AIRES en relación con el total de residencias otorgadas en el país. Una disminución en este valor indica una tendencia positiva hacia la redistribución de inmigrantes hacia otras provincias argentinas, promoviendo una distribución más equitativa y balanceada de la migración en el país.  
@@ -120,7 +141,7 @@ Este indicador busca medir la variación trimestral en la proporción de residen
 Aumentar la proporción de inmigrantes que se radican en la zona de radicación intermedia, incentivando la migración hacia estas regiones y diversificando la distribución de residencias.
 
 **Fórmula**<br>
-KPI2=  (Residencias zona radicación intermedia / Residencias Totales) trimestre actual− (Residencias zona radicación intermedia / Residencias Totales) trimestre anterior.
+KPI2=  [(Residencias zona radicación intermedia / Residencias Totales) trimestre actual− (Residencias zona radicación intermedia / Residencias Totales) trimestre anterior]*100/Residencias zona radicación intermedia / Residencias Totales) trimestre anterior
 
 
 **Justificación**
@@ -133,7 +154,7 @@ Este indicador busca medir la variación trimestral en la proporción de residen
 Aumentar la proporción de inmigrantes que se radican en las zonas de baja radicación, fomentando la migración hacia estas regiones y contribuyendo a un mayor equilibrio en la distribución demográfica.
 
 **Fórmula**<br>
-KPI3=(Residencias en zona de radicación baja / Residencias Totales) trimestre actual − (Residencias en zona de radicación baja/ Residencias Totales) trimestre anterior.
+KPI3=[(Residencias en zona de radicación baja / Residencias Totales) trimestre actual − (Residencias en zona de radicación baja/ Residencias Totales) trimestre anterior]*100/Residencias en zona de radicación baja/ Residencias Totales) trimestre anterior
 
 **Justificación**
 Este indicador mide la variación trimestral en la proporción de residencias otorgadas en las cinco provincias con menos radicaciones en relación con el total de residencias entregadas en el país. Un incremento en este valor refleja un aumento en la migración hacia estas provincias menos pobladas, lo que contribuye a descentralizar la concentración demográfica, estimular el desarrollo en áreas menos densamente pobladas y promover un equilibrio territorial más sostenible en Argentina.
