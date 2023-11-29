@@ -105,7 +105,7 @@ Analizando los indicadores de los países de origen y destino, se puede ver que 
 
 
 
-##  Radicación de inmigrantes dento de Argentina
+##  Radicación de inmigrantes dentro de Argentina
 * Distribución de Inmigrantes por Provincias:  
 La provincia de Buenos Aires alberga casi la mitad de los inmigrantes en Argentina, con un impresionante 46.6% de la población inmigrante residiendo allí. Le sigue la Ciudad Autónoma de Buenos Aires, que acoge al 28.68%. Esto indica una marcada concentración en el área metropolitana más grande del país por lo que como parte del nuestra propuesta, decidimos trabajar en distribuir los flujos hacia el interior.
 
