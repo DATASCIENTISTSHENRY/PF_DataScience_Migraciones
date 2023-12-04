@@ -231,7 +231,17 @@ Se puede ingresar a probar el modelo en el siguiente [link](https://migracion.st
 La informacion de descripcion y desarrollo del modelo puede encontrase en el siguiente link:
 [Enlace](https://github.com/DATASCIENTISTSHENRY/MODELO-ML)
 
+---
+## Dashboard POWER BI 
 
+<div align="center">
+    <a href="https://www.loom.com/share/728027297a7e4578acf20f414e1b2a4e">
+      <p>Dashboard_Migraciones - November 2023 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/728027297a7e4578acf20f414e1b2a4e">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/728027297a7e4578acf20f414e1b2a4e-with-play.gif">
+    </a>
+  </div>
 
 
 
