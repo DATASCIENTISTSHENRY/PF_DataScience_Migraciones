@@ -129,6 +129,7 @@ Estos datos revelan patrones significativos en la radicación de inmigrantes en 
 
 ---
 ## Indicadores de desempeño KPI- Distribución Homogénea en el país (Argentina)
+---
 
 Existe en Argentina una concentración de población tanto nativa como inmigrante en la provincia de Buenos Aires y CABA. A través de los siguientes indicadores claves de desempeño se busca monitorear y definir objetivos para favorecer una mejor dispersión de inmigrantes dentro del territorio Argentino. 
 Algunos de los beneficios de tener una distribución más homogénea son: 
@@ -181,6 +182,7 @@ Este indicador mide la variación trimestral en la proporción de residencias ot
 
 ---
 ## Stack Tecnológico
+---
 ![Enlace](./assets/Workflow_Google_Cloud.png)
 
 Para este proyecto es importante contar con una infraestructura sólida, escalable y segura. Es por eso que hemos elegido como stack tecnológico `Google Cloud Platform (GCP)`.
@@ -214,6 +216,7 @@ recomendación basado en técnicas de aprendizaje automático
 
 ---
 ## Modelo de Machine Learning 
+---
 El modelo desarrollado permite estimar la variacion en el stock de inmigartes de Argentina ante variaciones en los siguientes indicadores:
 * Ingresos per cápita
 * Acceso a electricidad
@@ -235,6 +238,9 @@ La informacion de descripcion y desarrollo del modelo puede encontrase en el sig
 
 ---
 ## Dashboard POWER BI 
+--
+
+El reporte generado se encuentra disponible para su visulalización en la web del proyecto [WEB](https://final-project-page.vercel.app/)
 
 <div align="center">
     <a href="https://www.loom.com/share/728027297a7e4578acf20f414e1b2a4e">
