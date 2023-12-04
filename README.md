@@ -44,6 +44,7 @@ Repositorio para Proyecto Final de Data Science en bootcamp Henry, se analizan l
 [GoogleCloudStorage](https://console.cloud.google.com/storage/browser?project=pf-data-science&prefix=&forceOnBucketsSortingFiltering=true)<br>
 [Modelo_ML](https://github.com/DATASCIENTISTSHENRY/MODELO-ML)<br>
 [Diccionario_de_datos](https://docs.google.com/spreadsheets/d/1ZPpcAVBxUZQtUsaX5dnRoTXet916yMVO/edit?usp=drive_link&ouid=108785850922164963725&rtpof=true&sd=true)<br>
+[Web del Proyecto](https://final-project-page.vercel.app/)<br>
 </div>
 
 ## Objetivo y Alcance 📚
@@ -65,8 +66,10 @@ El resultado de este análisis se presentará en un dashboard interactivo. Tambi
 
 
 #### [DATOS DEL GOBIERNO ARGENTINO](https://www.argentina.gob.ar/interior/renaper/estadistica-de-poblacion/informes-provinciales)
+---
 
-
+## Contexto 📝
+---
 
 ##	Relación entre migración e indicadores económicos sociales y ambientales. 
 
@@ -89,7 +92,6 @@ Luego, teniendo en cuenta que para cada país la variación de un determinado in
 - Cantidad de Importaciones: A mayor cantidad de importación, mayor migración neta.
 
 La correlación positiva entre importaciones y migración neta es un hallazgo interesante, que se dio con bastante intensidad para los dos enfoques. Podría estudiarse el tema en profundidad para comprender el sentido de dicha correlación. Estudiar qué representa para el país un aumento en las importaciones y por qué afecta a la migración neta del país.
-
 
 ##  Caracterización del proceso migratorio en Argentina
 ### Principales países de origen y destino de migrantes en Argentina y su evolución en el tiempo. <br>
